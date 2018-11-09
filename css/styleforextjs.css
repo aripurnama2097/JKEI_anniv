@@ -1,0 +1,85 @@
+/**
+****	create by Mohamad Yunus
+****	on 31 Oktober 2018
+****	remark:  -
+**/
+.refresh {
+	 background-image:url(../icons/refresh.png) !important;
+}
+.upload {
+	 background-image:url(../icons/upload.png) !important;
+}
+.reset {
+	 background-image:url(../icons/reset.png) !important;
+}
+.print {
+	 background-image:url(../icons/print.png) !important;
+}
+.add {
+	 background-image:url(../icons/add.png) !important;
+}
+.download {
+	 background-image:url(../icons/download.png) !important;
+}
+.save {
+	 background-image:url(../icons/save.png) !important;
+}
+.delete {
+	 background-image:url(../icons/delete.png) !important;
+}
+.list {
+	 background-image:url(../icons/list.png) !important;
+}
+.addlabel {
+	 background-image:url(../icons/addlabel.png) !important;
+}
+.edit {
+	 background-image:url(../icons/edit.png) !important;
+}
+.preview {
+	 background-image:url(../icons/preview.png) !important;
+}
+.csv {
+	 background-image:url(../icons/csv.png) !important;
+}
+.move {
+	 background-image:url(../icons/move.png) !important;
+}
+.hadir {
+	 background-image:url(../icons/hadir.png) !important;
+}
+.tidakhadir {
+	 background-image:url(../icons/tidakhadir.png) !important;
+}
+.biggertext{
+	font		: 11pt arial,sans-serif;
+} 
+.scanintext{
+	font		: 40pt arial,sans-serif;
+	font-weight	: bold;
+} 
+.transferidtext{
+	font		: 31pt arial,sans-serif;
+	font-weight	: bold;
+} 
+.boturntext{
+	font		: 23pt arial,sans-serif;
+	font-weight	: bold;
+} 
+.x-column-header-inner { 
+	font-weight: bold;
+	text-align: center;
+	white-space: normal;
+}
+.x-grid-cell {
+	padding: 2px;
+}
+.x-grid-row-over .x-grid-cell-inner {
+	font-weight: bold;
+}
+.x-column-header-inner .x-column-header-text {
+	white-space: normal;
+}
+.x-grid3-col .x-form-field{
+height:50px !important;
+}
