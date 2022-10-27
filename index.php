@@ -8,7 +8,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>JEIN Anniversary</title>
+	<title>JKEI Anniversary</title>
 	<style>		
 		/* style the footer */
 		footer {

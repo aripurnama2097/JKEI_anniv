@@ -202,7 +202,7 @@ body {
 								Ext.getCmp('btn_stop').setVisible(false);
 								setTimeout(function () {
 									var valgelombangid 	= Ext.getCmp('gelombangid').getValue();
-									if (valgelombangid == 7){
+									if (valgelombangid == 'Lain-lain'){
 										clearTimeout(t);
 										Ext.getCmp('lbl_message').setText(Ext.getCmp('lbl_message').text);
 										var valempno 	= Ext.getCmp('lbl_message').text;
@@ -429,6 +429,7 @@ body {
 												datastore.proxy.setExtraParam('valempname',	'');
 												datastore.loadPage(1);
 												dsempno.loadPage(1);
+												dscbx_gelombang.loadPage(1);
 											}else{
 												//	refresh data
 												Ext.getCmp('valempno').reset();
@@ -437,6 +438,7 @@ body {
 												datastore.proxy.setExtraParam('valempname',	'');
 												datastore.loadPage(1);
 												dsempno.loadPage(1);
+												dscbx_gelombang.loadPage(1);
 												
 												//	response dari database
 												Ext.Msg.show({
@@ -484,6 +486,7 @@ body {
 												datastore.proxy.setExtraParam('valempname',	'');
 												datastore.loadPage(1);
 												dsempno.loadPage(1);
+												dscbx_gelombang.loadPage(1);
 											}else{
 												//	refresh data
 												Ext.getCmp('valempno').reset();
@@ -492,6 +495,7 @@ body {
 												datastore.proxy.setExtraParam('valempname',	'');
 												datastore.loadPage(1);
 												dsempno.loadPage(1);
+												dscbx_gelombang.loadPage(1);
 												
 												//	response dari database
 												Ext.Msg.show({
@@ -549,6 +553,7 @@ body {
 													datastore.proxy.setExtraParam('valempname',	'');
 													datastore.loadPage(1);
 													dsempno.loadPage(1);
+													dscbx_gelombang.loadPage(1);
 												}else{
 													//	refresh data
 													Ext.getCmp('valempno').reset();
@@ -557,6 +562,7 @@ body {
 													datastore.proxy.setExtraParam('valempname',	'');
 													datastore.loadPage(1);
 													dsempno.loadPage(1);
+													dscbx_gelombang.loadPage(1);
 													
 													//	response dari database
 													Ext.Msg.show({
